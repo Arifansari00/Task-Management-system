@@ -16,7 +16,7 @@ const Login = ({ setAuth }) => {
       setAuth(true);
       navigate('/dashboard');
     } catch (err) {
-      alert('Login failed');
+      alert('Login failedtry');
     }
   };
 
