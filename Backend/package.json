@@ -9,9 +9,12 @@
    "scripts": {
 
       "start": "node server.js",
-      "dev"  : "nodemon server.js",
+
+      "dev": "nodemon server.js",
+
       "build": "cd ../frontend && npm run build",
-      "deploy":"npm run build && npm start"
+
+      "deploy": "npm run build && npm start"
 
    },
 
@@ -28,6 +31,8 @@
       "express-validator": "^7.3.1",
 
       "jsonwebtoken": "^9.0.3",
+
+      "mongodb": "^7.0.0",
 
       "mongoose": "^9.1.3",
 
